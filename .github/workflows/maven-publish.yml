@@ -4,6 +4,9 @@
 name: Maven Package
 
 on:
+  push:
+    branches:
+      - main  # Or your working branch
   release:
     types: [created]
 
